@@ -1,0 +1,41 @@
+.flipper-countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flipper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.flipper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 61, 104);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+.number {
+    font-size: 24px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .flipper {
+        font-size: 36px;
+    }
+}

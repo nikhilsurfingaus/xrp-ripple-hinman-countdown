@@ -1,0 +1,32 @@
+.bg-black-translucent {
+    background-color: rgba(53, 51, 51, 0.582);
+    border: rgba(255, 255, 255, 0.718) solid 2px;
+    /* Add the blur effect */
+    backdrop-filter: blur(5px);
+}
+
+.rocket {
+    cursor: pointer;
+}
+
+.rocket-clicked {
+    color: rgb(0, 255, 64) !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        margin-top: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .float {
+        margin-top: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 2400px) {
+    .float {
+        margin-top: 70px !important;
+    }
+}
