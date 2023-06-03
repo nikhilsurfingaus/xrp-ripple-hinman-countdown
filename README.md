@@ -1,6 +1,6 @@
 
 # XRP Hinman Countdown Fullstack Web Application
-## Live Demo: Site Link: [https://xrp-secentral.netlify.app](https://xrp-secentral.netlify.app) 
+## Live Demo Site Link: [https://xrp-secentral.netlify.app](https://xrp-secentral.netlify.app) 
 
 ## Template Powered By: 
 <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="drawing" width="100"/> <img 
@@ -17,11 +17,9 @@ src="https://www.drupal.org/files/project-images/animate.png" alt="drawing"  hei
 
 ## Screenshots
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/1.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/2.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/3.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/4.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/react-coding-interview-template/blob/master/src/assets/5.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown/blob/master/src/assets/1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown/blob/master/src/assets/2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown/blob/master/src/assets/3.jpg" height=20% width=20% />
 </p>
 
 # Contributing
