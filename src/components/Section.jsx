@@ -10,6 +10,9 @@ import { BsRocketTakeoff } from 'react-icons/bs';
 import { db } from '../firebase'; // Import the `db` object from your firebase.js file
 import {collection, getDocs, doc, updateDoc} from 'firebase/firestore'
 
+import ConfettiExplosion from 'react-confetti-explosion';
+
+
 const Section = () => {
   const [rocketClicked, setRocketClicked] = useState(false);
   const [count, setCount] = useState(null);
@@ -61,6 +64,8 @@ const Section = () => {
               <Countdown />
             </div>
             <div className="mt-4">
+            <ConfettiExplosion width={2000} duration={3000} />
+          
               <h5 className="text-white fw-bold">Summary</h5>
               <h6 className="text-white">
                 Hinman's emails, the former head of the SEC, are crucial in its lawsuit against Ripple. It is believed that they could contain the evidence that settles the debate on the nature of XRP, Ripple's native asset. However, access to these emails has been blocked by the court until June 13th, 2023.
@@ -71,8 +76,10 @@ const Section = () => {
                 <BsRocketTakeoff className={`rocket ${rocketClicked ? 'rocket-clicked' : ''}`} onClick={() => handleClickRocket()} style={{ fontSize: "1.5rem" }} />
                 +{count} XRP Army
               </div>
-              <button data-tooltip-id="download" data-tooltip-content="Available On June 13th" className='btn btn-success'>
-                <AiOutlineDownload className="me-2" />Hinman Emails
+              <button data-tooltip-id="download" data-tooltip-content="View Exhibit #280 Onwards" className='btn btn-success'>
+                <a href="https://www.courtlistener.com/docket/19857399/securities-and-exchange-commission-v-ripple-labs-inc/?filed_after&filed_before&entry_gte&entry_lte&order_by=desc#entry-834"  target="_blank" rel="noreferrer">
+                  <AiOutlineDownload className="me-2" />Hinman Emails
+                </a>
               </button>
             </div>
           </div>
